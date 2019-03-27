@@ -23,8 +23,7 @@
       <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="" class="logo">
       <div class="slide">
         <img src="<?php echo get_template_directory_uri(); ?>/img/visual_1_pc.png" alt="" class="topImg-pc">
-<!--         <img src="img/visual_2_pc.png" alt="" class="topImg-pc">
- -->      </div>
+      </div>
       <img src="<?php echo get_template_directory_uri(); ?>/img/visual_text_pc.png" alt="" class="logoText-pc">
       <!-- スマホ用画像 -->
       <img src="<?php echo get_template_directory_uri(); ?>/img/visual_1_sp.png" alt="" class="topImg-sp">
@@ -47,41 +46,55 @@
         <img src="<?php echo get_template_directory_uri(); ?>/img/post_img_1.png" alt="">
         <h3>2018/3/25</h3>
         <p>サンプルだよ</p>
-        <a href="">READ MORE</a>
+        <div class="read">
+          <a href="" class="next">READ MORE</a>
+        </div>
       </li>
       <li>
         <img src="<?php echo get_template_directory_uri(); ?>/img/post_img_2.png" alt="">
         <h3>2018/3/25</h3>
         <p>サンプルだよ</p>
-        <a href="">READ MORE</a>
+        <div class="read">
+          <a href="" class="next">READ MORE</a>
+        </div>
       </li>
       <li>
         <img src="<?php echo get_template_directory_uri(); ?>/img/post_img_3.png" alt="">
         <h3>2018/3/25</h3>
         <p>サンプルだよ</p>
-        <a href="">READ MORE</a>
+        <div class="read">
+          <a href="" class="next">READ MORE</a>
+        </div>
       </li>
     </ul>
+
     <ul class="img-box">
       <li>
         <img src="<?php echo get_template_directory_uri(); ?>/img/post_img_4.png" alt="">
         <h3>2018/3/25</h3>
         <p>サンプルだよ</p>
-        <a href="">READ MORE</a>
+        <div class="read">
+          <a href="" class="next">READ MORE</a>
+        </div>
       </li>
       <li>
         <img src="<?php echo get_template_directory_uri(); ?>/img/post_img_5.png" alt="">
         <h3>2018/3/25</h3>
         <p>サンプルだよ</p>
-        <a href="">READ MORE</a>
+        <div class="read">
+          <a href="" class="next">READ MORE</a>
+        </div>
       </li>
       <li>
         <img src="<?php echo get_template_directory_uri(); ?>/img/post_img_6.png" alt="">
         <h3>2018/3/25</h3>
         <p>サンプルだよ</p>
-        <a href="">READ MORE</a>
-      </li> 
+        <div class="read">
+          <a href="" class="next">READ MORE</a>
+        </div>
+      </li>
     </ul>
+
   </main>
 
   <!-- フッター -->
