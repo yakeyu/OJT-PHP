@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <title>アメリカンビレッジ</title>
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/reset.css">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/flexslider">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css">
 </head>
 <body>
@@ -21,8 +22,16 @@
     <div class="header-img">
       <!-- PC用画像 -->
       <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="" class="logo">
-      <div class="slide">
-        <img src="<?php echo get_template_directory_uri(); ?>/img/visual_1_pc.png" alt="" class="topImg-pc">
+      <div class="flexslider">
+        <ul class="slides">
+        <li><img src="<?php echo get_template_directory_uri(); ?>/img/visual_1_pc.png" alt="" class="topImg-pc"></li>
+        <li><img src="<?php echo get_template_directory_uri(); ?>/img/visual_2_pc.png" alt="" class="topImg-pc"></li>
+        <li><img src="<?php echo get_template_directory_uri(); ?>/img/visual_3_pc.png" alt="" class="topImg-pc"></li>
+        <li><img src="<?php echo get_template_directory_uri(); ?>/img/visual_4_pc.png" alt="" class="topImg-pc"></li>
+        <li><img src="<?php echo get_template_directory_uri(); ?>/img/visual_5_pc.png" alt="" class="topImg-pc"></li>
+        <li><img src="<?php echo get_template_directory_uri(); ?>/img/visual_6_pc.png" alt="" class="topImg-pc"></li>
+        <li><img src="<?php echo get_template_directory_uri(); ?>/img/visual_7_pc.png" alt="" class="topImg-pc"></li>
+        </ul>
       </div>
       <img src="<?php echo get_template_directory_uri(); ?>/img/visual_text_pc.png" alt="" class="logoText-pc">
       <!-- スマホ用画像 -->
@@ -75,6 +84,9 @@
     </div>
   </footer>
 
-  <script src="app.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.flexslider"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/js/app.js"></script>
 </body>
 </html>
+
