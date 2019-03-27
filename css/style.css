@@ -104,7 +104,7 @@ a{
   margin-right: 30px;
   margin-bottom: 30px;
   height: 450px;
-  width: 300px;
+  width: 31.3%;
   transition: .8s;
   border-radius: 5px;
 }
@@ -120,7 +120,7 @@ a{
 
 .img-box img{
   height: 200px;
-  width: 300px;
+  max-width: 100%;
 }
 
 .date{
@@ -246,7 +246,12 @@ footer{
 
   .img-box li{
     margin: 0 0 20px 0;
+    width: 400px;
     height: 100%;
+  }
+
+  .next{
+    margin-bottom: 20px;
   }
 
 }
