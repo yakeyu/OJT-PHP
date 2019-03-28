@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <title>アメリカンビレッジ</title>
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/reset.css">
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/flexslider">
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css">
 </head>
 <body>
@@ -22,16 +21,8 @@
     <div class="header-img">
       <!-- PC用画像 -->
       <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="" class="logo">
-      <div class="flexslider">
-        <ul class="slides">
-        <li><img src="<?php echo get_template_directory_uri(); ?>/img/visual_1_pc.png" alt="" class="topImg-pc"></li>
-        <li><img src="<?php echo get_template_directory_uri(); ?>/img/visual_2_pc.png" alt="" class="topImg-pc"></li>
-        <li><img src="<?php echo get_template_directory_uri(); ?>/img/visual_3_pc.png" alt="" class="topImg-pc"></li>
-        <li><img src="<?php echo get_template_directory_uri(); ?>/img/visual_4_pc.png" alt="" class="topImg-pc"></li>
-        <li><img src="<?php echo get_template_directory_uri(); ?>/img/visual_5_pc.png" alt="" class="topImg-pc"></li>
-        <li><img src="<?php echo get_template_directory_uri(); ?>/img/visual_6_pc.png" alt="" class="topImg-pc"></li>
-        <li><img src="<?php echo get_template_directory_uri(); ?>/img/visual_7_pc.png" alt="" class="topImg-pc"></li>
-        </ul>
+      <div class="slide">
+        <img src="<?php echo get_template_directory_uri(); ?>/img/visual_1_pc.png" alt="" class="topImg-pc">
       </div>
       <img src="<?php echo get_template_directory_uri(); ?>/img/visual_text_pc.png" alt="" class="logoText-pc">
       <!-- スマホ用画像 -->
@@ -46,6 +37,7 @@
       <span class="sp">進化し続ける「街」<br>アメリカンビレッジマガジン</span>
     </div>
   </header>
+
 
   <div id="blog_archive">
     <!-- 記事一覧 -->
@@ -65,7 +57,7 @@
             <?php else: ?>
             <img src="<?php echo get_template_directory_uri(); ?>/img/post_img_1.png" alt="">
             <?php endif; ?>
-            <h3 class="date"><?php the_time('Y/m/d');?></h3>
+            <p class="date"><?php the_time('Y/m/d');?></p>
             <p class="article"><?php the_title();?></p>
             <div class="read">
               <a href="<?php the_permalink(); ?>" class="next">READ MORE</a>
@@ -86,4 +78,3 @@
 
 </body>
 </html>
-
