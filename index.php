@@ -72,7 +72,7 @@
   <!-- フッター -->
   <footer>
     <div class="footer">
-      <p>Copyright © Shinohara.All RIGHTS RESERVED.</p>
+      <p>Copyright © Shinohara. ALL RIGHTS RESERVED.</p>
     </div>
   </footer>
 
